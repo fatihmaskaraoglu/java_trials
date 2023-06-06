@@ -18,3 +18,14 @@
 
 -Service Definition 
 - WSDL
+
+> Spring Boot Magic
+- How are request handled?
+  * DispatcherServlet (DispatcherServletAutoConfiguration)
+- How does bean object get converted to Json?
+  * ResponseBody + JacksonHttpMessageConverters
+- Who is configuring error mapping?
+  * ErrorMvcAutoConfiguration
+- How are all jars available?
+  * Starter Projects (Spring Boot Starter Web - spring webmvc, spring-web, spring-boot-starter-tomcat, spring-boot-starter-json)
+
