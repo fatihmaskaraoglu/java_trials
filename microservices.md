@@ -29,3 +29,10 @@
 - How are all jars available?
   * Starter Projects (Spring Boot Starter Web - spring webmvc, spring-web, spring-boot-starter-tomcat, spring-boot-starter-json)
 
+> Request Methods for REST API
+- get --> retrieve details of a resource
+- post --> create a new resource
+- put --> update an existing resource
+- patch --> update part of a resource
+- delete --> delete a resource 
+
