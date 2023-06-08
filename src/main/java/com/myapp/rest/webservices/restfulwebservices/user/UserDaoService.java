@@ -1,6 +1,5 @@
 package com.myapp.rest.webservices.restfulwebservices.user;
 
-import org.hibernate.annotations.Comment;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -32,6 +31,11 @@ public class UserDaoService {
         user.setId(++usersCount);
         users.add(user);
         return user;
+    }
+
+    public void deleteById(int id){
+        Predicate<? super User> predicate = user -> user.getId().equals(id);
+        users.removeIf(predicate);
     }
 
 }
