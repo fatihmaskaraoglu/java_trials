@@ -36,3 +36,22 @@
 - patch --> update part of a resource
 - delete --> delete a resource 
 
+> REST API Documentation
+- Your REST API consumers need to understand your REST API:
+  - Resources
+  - Actions
+  - Request / Response Structure (constraints / validations)
+- Challenges
+  - Accuracy: how do you ensure that your documentation is upto date and correct?
+  - Consistency: you might have 100s of Rest API in an enterprise. How do you ensure consistency?
+- Options
+  - Manually Maintain Documentation (additional effort keep it in sync with code)
+  - Generate from code (open api && swagger)
+
+- Content Negotiation
+  - Accept Header
+   <dependency>
+    		<groupId>com.fasterxml.jackson.dataformat</groupId>
+    		<artifactId>jackson-dataformat-xml</artifactId>
+    </dependency>
+  - Accept Language header
