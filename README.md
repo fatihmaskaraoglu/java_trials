@@ -102,7 +102,10 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ```
 
 
-
+mysqlsh commands & view table details:
 
 ![image](https://github.com/fatihmaskaraoglu/java_trials/assets/8976615/1d77fd81-7a26-4bd2-86a9-29da7f6d41fa)
 
+docker view for container:
+
+![image](https://github.com/fatihmaskaraoglu/java_trials/assets/8976615/dab557aa-8600-43f0-890b-ad2cb5d7c68f)
